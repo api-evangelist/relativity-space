@@ -1,0 +1,59 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Relativity Space
+providerId: relativity-space
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Aerospace
+- Launch Services
+- Space
+- Rocket
+- 3D Printing
+- Additive Manufacturing
+- Plans
+description: >-
+  Relativity Space does not sell a metered API product, so there is no
+  API pricing or plan structure to document. The company's commercial model
+  is launch-service agreements (LSAs) for Terran R missions - dedicated and
+  rideshare payload launches - negotiated directly with customers as
+  multi-launch contracts. Pricing is contract-based and not publicly listed;
+  reported customer backlog exceeds $3B across government, commercial, and
+  telecommunications customers. No public per-call, per-token, or
+  subscription API rates exist.
+notes: >-
+  This is an informational record for an aerospace manufacturer with no public
+  developer API. Launch pricing is bespoke and obtained via Relativity Space
+  sales; reconcile against any future published pricing if the company ever
+  exposes a programmatic product.
+sources:
+- https://www.relativityspace.com
+- https://www.relativityspace.com/terran-r
+plans:
+- id: relativity-space-launch-services
+  name: Launch Services Agreement
+  type: enterprise
+  description: >-
+    Contract-based Terran R launch services - dedicated or rideshare payload
+    missions to LEO / GTO - negotiated directly with Relativity Space sales.
+    Not an API plan; no public rate card.
+  entries:
+  - label: Terran R Launch Service Agreement
+    name: terran_r_lsa
+    type: flat
+    metric: contract
+    limit: -1
+    timeFrame: year
+    geo: global
+    unit: 1
+    price: contact sales
+    userMultiplied: false
+  elements:
+  - name: Dedicated Launch
+  - name: Rideshare Launch
+  - name: Payload Integration
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

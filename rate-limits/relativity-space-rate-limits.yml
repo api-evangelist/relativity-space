@@ -1,0 +1,42 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Relativity Space
+providerId: relativity-space
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Aerospace
+- Launch Services
+- Space
+- Rocket
+- 3D Printing
+- Additive Manufacturing
+- Rate Limiting
+- Quotas
+- Throttling
+description: >-
+  Relativity Space does not expose a public developer API, so there are no API
+  rate limits, quotas, throttling policies, or HTTP response codes to document.
+  This artifact exists only to record - honestly - that no programmatic
+  interface (and therefore no rate-limiting surface) is published by the
+  provider.
+notes: >-
+  Informational record for an aerospace manufacturer with no public API. If
+  Relativity Space ever publishes a developer API, reconcile this file with
+  the documented rate limits at that time.
+sources:
+- https://www.relativityspace.com
+- https://www.relativityspace.com/terran-r
+responseCodes: {}
+limits: []
+policies:
+- name: No Public API
+  description: >-
+    Relativity Space publishes no public developer API; no rate limits or
+    throttling policies apply. Payload and mission integration is handled via
+    direct sales and engineering contact, not a programmatic interface.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

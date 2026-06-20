@@ -1,0 +1,77 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
+provider: Relativity Space
+providerId: relativity-space
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Aerospace
+- Launch Services
+- Space
+- Rocket
+- 3D Printing
+- Additive Manufacturing
+- FinOps
+- Cost Management
+- FOCUS
+description: >-
+  FinOps view of Relativity Space spend. Relativity Space does not bill any
+  usage-based API consumption; it sells contract-based Terran R launch
+  services (dedicated and rideshare payload missions). There are no
+  per-call, per-token, or per-unit API meters to track. Cost management here
+  is procurement of launch-service agreements, not cloud-style usage
+  optimization, so this artifact is informational and largely empty.
+notes: >-
+  Informational record for an aerospace manufacturer with no public API and no
+  metered billing. If a programmatic, usage-billed product ever appears,
+  reconcile meters and FOCUS columns against it.
+sources:
+- https://www.relativityspace.com
+- https://www.relativityspace.com/terran-r
+- https://focus.finops.org/focus-specification/v1-3/
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+publisherName: Relativity Space
+serviceCategory: Aerospace and Launch Services
+billingModel:
+  pricingCategory: Contract-Based
+  billingFrequency: Per Contract
+  billingCurrency: USD
+  chargeCategories:
+  - Purchase
+focusColumns:
+  ServiceName: Terran R Launch Services
+  ServiceCategory: Aerospace and Launch Services
+  ProviderName: Relativity Space
+  PublisherName: Relativity Space
+  InvoiceIssuerName: Relativity Space
+  BillingCurrency: USD
+  ChargeCategory: Purchase
+  PricingCategory: Contract-Based
+meters: []
+principles:
+- name: Visibility
+  description: >-
+    No API usage to meter; spend visibility is at the launch-service contract
+    level, tracked through procurement, not usage exports.
+- name: Allocation
+  description: >-
+    Allocate launch-service contract costs to the mission / program they
+    support; there are no API keys or per-call usage to tag.
+- name: Optimization
+  description: >-
+    Optimize via rideshare vs. dedicated launch selection and contract terms,
+    not usage-tier tuning.
+- name: Accountability
+  description: >-
+    Assign mission / program owners to each launch-service agreement and review
+    contract commitments against budget.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

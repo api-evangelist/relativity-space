@@ -1,0 +1,93 @@
+aid: relativity-space
+url: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/apis.yml
+name: Relativity Space
+kind: company
+description: Relativity Space is an aerospace manufacturer building Terran R, a reusable
+  medium-to-heavy lift orbital launch vehicle produced with the company's proprietary
+  Stargate metal 3D printing platform in Long Beach, CA. The company sells launch
+  services - dedicated and rideshare payload missions to LEO and GTO - to government,
+  commercial, and telecommunications customers. Relativity Space does not publish a
+  public developer API; its developer-facing artifact is the Terran payload user's
+  guide (mission integration documentation), not a programmatic interface.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Aerospace
+- Launch Services
+- Space
+- Rocket
+- 3D Printing
+- Additive Manufacturing
+created: '2026-06-20'
+modified: '2026-06-20'
+specificationVersion: '0.19'
+apis:
+- aid: relativity-space:terran-r-launch
+  name: Relativity Space Terran R Launch
+  tags:
+  - Launch Services
+  - Terran R
+  - Orbital Launch
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.relativityspace.com/terran-r
+  properties:
+  - url: https://www.relativityspace.com/terran-r
+    type: Documentation
+  - url: openapi/relativity-space-openapi.yml
+    type: OpenAPI
+  description: Terran R is a reusable medium-to-heavy lift launch vehicle offering
+    up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned
+    first launch from Launch Complex 16 at Cape Canaveral. This is a launch-services
+    product surface, not a programmatic API - there is no public developer API.
+    Informational entry only.
+- aid: relativity-space:stargate-manufacturing
+  name: Relativity Space Stargate Manufacturing
+  tags:
+  - 3D Printing
+  - Additive Manufacturing
+  - Stargate
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.relativityspace.com
+  properties:
+  - url: https://www.relativityspace.com
+    type: Documentation
+  - url: openapi/relativity-space-openapi.yml
+    type: OpenAPI
+  description: Stargate is Relativity Space's proprietary fourth-generation metal 3D
+    printing platform used to manufacture Terran R structures at its Long Beach
+    headquarters. This is an internal manufacturing technology, not an externally
+    consumable API - no public developer API or machine-to-machine interface is
+    documented. Informational entry only.
+- aid: relativity-space:payload-rideshare
+  name: Relativity Space Payload and Rideshare
+  tags:
+  - Payload
+  - Rideshare
+  - Mission Integration
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.relativityspace.com/terran-r
+  properties:
+  - url: https://www.relativityspace.com/terran-r
+    type: Documentation
+  - url: openapi/relativity-space-openapi.yml
+    type: OpenAPI
+  description: Payload integration for dedicated constellation deployments, single
+    large satellites, and multi-customer rideshare missions, supported through a
+    standard Payload Attach Fitting (PAF) interface and documented in a payload
+    user's guide. Mission integration is handled via sales and engineering
+    contact, not a public API. Informational entry only.
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/relativity-space
+- type: Website
+  url: https://www.relativityspace.com
+- type: Documentation
+  url: https://www.relativityspace.com/terran-r
+- type: Plans
+  url: plans/relativity-space-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/relativity-space-rate-limits.yml
+- type: FinOps
+  url: finops/relativity-space-finops.yml
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

@@ -1,0 +1,10 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Relativity Space API",
+    "version": "0.0",
+    "description": "Relativity Space does not publish a public developer API. This collection is intentionally empty and exists only to catalog the provider. Relativity Space is an aerospace manufacturer (Terran R launch vehicle, Stargate 3D printing); it is distinct from Relativity / RelativityOne, the unrelated legal e-discovery company."
+  },
+  "items": [],
+  "bundled": true
+}

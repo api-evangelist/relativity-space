@@ -1,0 +1,95 @@
+aid: relativity-space
+name: Relativity Space
+review:
+  question: Does Relativity Space expose a documented public developer API?
+  answer: false
+  date: '2026-06-20'
+  reviewer: API Evangelist
+  asyncapiSpecCreated: false
+  asyncapiScopeNote: |
+    No AsyncAPI document was created. Relativity Space publishes no public
+    API of any kind - no REST, no GraphQL, no gRPC, and no event-driven /
+    WebSocket / SSE messaging surface - so there is nothing to model in
+    AsyncAPI.
+findings:
+  summary: |
+    Relativity Space (relativityspace.com) is an aerospace manufacturer
+    building the Terran R reusable medium-to-heavy lift launch vehicle using
+    its proprietary Stargate metal 3D printing platform. It sells launch
+    services - dedicated and rideshare payload missions to LEO / GTO - to
+    government, commercial, and telecommunications customers (reported backlog
+    over $3B). It does NOT publish a public developer API. There is no API
+    reference, no base URL, no authentication scheme, no SDK, and no
+    programmatic interface of any kind. The only developer-facing artifact is
+    the Terran payload user's guide (a PDF describing physical payload
+    integration via a standard Payload Attach Fitting), and mission integration
+    is handled through direct sales and engineering contact - not an API. The
+    catalog entries (Terran R Launch, Stargate Manufacturing, Payload /
+    Rideshare) are informational product surfaces, not consumable APIs. The
+    OpenAPI document is intentionally an empty contract (paths: {}).
+  disambiguation:
+    note: |
+      "Relativity Space" must not be confused with "Relativity" the legal
+      technology company.
+    entities:
+    - name: Relativity Space
+      homepage: https://www.relativityspace.com
+      id: relativity-space
+      what: Aerospace manufacturer - 3D-printed Terran R rocket and launch services.
+    - name: Relativity (Relativity ODA / RelativityOne)
+      homepage: https://www.relativity.com
+      id: relativity
+      what: Legal e-discovery / litigation software company - unrelated, already tracked separately in the catalog.
+    - name: RelativityOne
+      homepage: https://www.relativity.com
+      id: relativityone
+      what: Relativity's SaaS e-discovery platform - unrelated to Relativity Space, already tracked separately.
+  transports:
+  - protocol: REST
+    scheme: https
+    documented: false
+    note: No REST API or base URL is published by Relativity Space.
+  - protocol: GraphQL
+    documented: false
+    note: No GraphQL endpoint is documented.
+  - protocol: WebSocket
+    scheme: wss
+    documented: false
+    note: No WebSocket or realtime messaging surface is documented.
+  productSurfaces:
+  - name: Terran R Launch
+    type: Launch Vehicle / Service
+    api: false
+    note: Reusable launch vehicle - up to 23,500 kg to LEO (downrange landing), 5,500 kg to GTO. Product, not an API.
+  - name: Stargate Manufacturing
+    type: Internal Manufacturing Technology
+    api: false
+    note: Proprietary 4th-generation metal 3D printing platform. Internal technology, not externally consumable.
+  - name: Payload and Rideshare
+    type: Mission Integration
+    api: false
+    note: Dedicated and rideshare payload integration via standard Payload Attach Fitting (PAF); documented in a payload user's guide, handled via sales / engineering contact.
+sources:
+- url: https://www.relativityspace.com
+  type: Website
+  note: Marketing / product site; no developer or API section exists.
+- url: https://www.relativityspace.com/terran-r
+  type: Documentation
+  note: Terran R product page - vehicle specs and payload capacity; no API.
+- url: https://static1.squarespace.com/static/59a8fb50d2b8575fad311abb/t/5f68d35cda98575604906432/1600705386517/Relativity+Terran+1+Payload+User's+Guide_Rev2.0.pdf
+  type: PayloadUsersGuide
+  note: Terran 1 Payload User's Guide (PDF) - physical mission integration documentation, not a programmatic API.
+actions:
+  asyncapiPath: null
+  apisYmlUpdated: true
+  reason: |
+    Cataloged Relativity Space honestly as an aerospace manufacturer with no
+    public developer API. Three informational product surfaces were recorded
+    (Terran R Launch, Stargate Manufacturing, Payload / Rideshare), an empty
+    OpenAPI contract (paths: {}) was authored, and the provider was explicitly
+    disambiguated from Relativity / RelativityOne (the unrelated legal
+    e-discovery company already in the catalog). No fabricated endpoints,
+    base URLs, or authentication were introduced.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
