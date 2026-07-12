@@ -76,6 +76,8 @@ apis:
     user's guide. Mission integration is handled via sales and engineering
     contact, not a public API. Informational entry only.
 common:
+- type: DomainSecurity
+  url: security/relativity-space-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/relativity-space
 - type: Website
