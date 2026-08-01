@@ -1,0 +1,14 @@
+{
+  "provider": "relativity-space",
+  "sources": [
+    "relativity-space-openapi.yml"
+  ],
+  "outputs": [],
+  "archived": [
+    "archived relativity-space-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
