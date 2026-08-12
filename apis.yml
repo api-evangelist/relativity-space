@@ -44,7 +44,7 @@ apis:
   properties:
   - url: https://www.relativityspace.com/terran-r
     type: Documentation
-  - url: openapi/relativity-space-openapi.yml
+  - url: openapi/_original/relativity-space-openapi.yml
     type: OpenAPI
   description: Terran R is a reusable medium-to-heavy lift launch vehicle offering
     up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned
@@ -62,7 +62,7 @@ apis:
   properties:
   - url: https://www.relativityspace.com
     type: Documentation
-  - url: openapi/relativity-space-openapi.yml
+  - url: openapi/_original/relativity-space-openapi.yml
     type: OpenAPI
   description: Stargate is Relativity Space's proprietary fourth-generation metal 3D
     printing platform used to manufacture Terran R structures at its Long Beach
@@ -80,7 +80,7 @@ apis:
   properties:
   - url: https://www.relativityspace.com/terran-r
     type: Documentation
-  - url: openapi/relativity-space-openapi.yml
+  - url: openapi/_original/relativity-space-openapi.yml
     type: OpenAPI
   description: Payload integration for dedicated constellation deployments, single
     large satellites, and multi-customer rideshare missions, supported through a
