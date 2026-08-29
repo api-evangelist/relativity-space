@@ -9,6 +9,17 @@ description: Relativity Space is an aerospace manufacturer building Terran R, a 
   commercial, and telecommunications customers. Relativity Space does not publish a
   public developer API; its developer-facing artifact is the Terran payload user's
   guide (mission integration documentation), not a programmatic interface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
