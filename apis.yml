@@ -41,7 +41,7 @@ tags:
 - 3D Printing
 - Additive Manufacturing
 created: '2026-06-20'
-modified: '2026-06-20'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
 - aid: relativity-space:terran-r-launch
@@ -99,6 +99,8 @@ apis:
     user's guide. Mission integration is handled via sales and engineering
     contact, not a public API. Informational entry only.
 common:
+- url: https://www.relativityspace.com/updates
+  type: Blog
 - type: DomainSecurity
   url: security/relativity-space-domain-security.yml
 - type: LinkedIn
