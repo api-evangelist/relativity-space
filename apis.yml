@@ -39,6 +39,12 @@ tags:
 - Space
 - Rocket
 - 3D Printing
+tags_raw:
+- Aerospace
+- Launch Services
+- Space
+- Rocket
+- 3D Printing
 - Additive Manufacturing
 created: '2026-06-20'
 modified: '2026-10-06'
@@ -65,6 +71,9 @@ apis:
 - aid: relativity-space:stargate-manufacturing
   name: Relativity Space Stargate Manufacturing
   tags:
+  - 3D Printing
+  - Stargate
+  tags_raw:
   - 3D Printing
   - Additive Manufacturing
   - Stargate
