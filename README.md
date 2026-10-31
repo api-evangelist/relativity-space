@@ -1,4 +1,4 @@
-# Relativity Space (relativity-space)
+# Relativity Space
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,91 +66,109 @@
 
 Relativity Space is an aerospace manufacturer building Terran R, a reusable medium-to-heavy lift orbital launch vehicle produced with the company's proprietary Stargate metal 3D printing platform in Long Beach, CA. The company sells launch services - dedicated and rideshare payload missions to LEO and GTO - to government, commercial, and telecommunications customers. Relativity Space does not publish a public developer API; its developer-facing artifact is the Terran payload user's guide (mission integration documentation), not a programmatic interface.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/apis.yml)
+**Areas:** Aerospace · Launch Services · Space · Rocket · 3D Printing
 
-## Tags
+## Relativity Space on APIs.io
 
-- Aerospace
-- Launch Services
-- Space
-- Rocket
-- 3D Printing
-- Additive Manufacturing
+Everything profiled for Relativity Space is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/relativity-space/](https://apis.io/providers/relativity-space/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (3)
 
-- **Created:** 2026-06-20
-- **Modified:** 2026-06-20
+- [Relativity Space Terran R Launch](https://apis.io/apis/relativity-space/terran-r-launch/) — Terran R is a reusable medium-to-heavy lift launch vehicle offering up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned first…
+- [Relativity Space Stargate Manufacturing](https://apis.io/apis/relativity-space/stargate-manufacturing/) — Stargate is Relativity Space's proprietary fourth-generation metal 3D printing platform used to manufacture Terran R structures at its Long Beach…
+- [Relativity Space Payload and Rideshare](https://apis.io/apis/relativity-space/payload-rideshare/) — Payload integration for dedicated constellation deployments, single large satellites, and multi-customer rideshare missions, supported through a standard…
 
-## APIs
+### Published properties
 
-### Relativity Space Terran R Launch
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Terran R is a reusable medium-to-heavy lift launch vehicle offering up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned first launch from Launch Complex 16 at Cape Canaveral. This is a launch-services product surface, not a programmatic API - there is no public developer API. Informational entry only.
+#### Collections (1)
 
-- **Human URL:** [https://www.relativityspace.com/terran-r](https://www.relativityspace.com/terran-r)
+Postman and Open Collection request collections.
 
-#### Tags
+- [Relativity Space API](https://apis.io/collections/relativity-space/open-relativity-space/)
 
-- Launch Services
-- Terran R
-- Orbital Launch
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://www.relativityspace.com/terran-r)
-- [OpenAPI](openapi/relativity-space-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/relativity-space.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/relativity-space.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Relativity Space Domain Security](https://apis.io/security/relativity-space/relativity-space-domain-security/)
 
-### Relativity Space Stargate Manufacturing
+#### Plans and pricing (1)
 
-Stargate is Relativity Space's proprietary fourth-generation metal 3D printing platform used to manufacture Terran R structures at its Long Beach headquarters. This is an internal manufacturing technology, not an externally consumable API - no public developer API or machine-to-machine interface is documented. Informational entry only.
+Published plans, tiers and prices.
 
-- **Human URL:** [https://www.relativityspace.com](https://www.relativityspace.com)
+- [Relativity Space Plans Pricing](https://apis.io/plans/relativity-space/relativity-space-plans-pricing/)
 
-#### Tags
+#### Rate limits (1)
 
-- 3D Printing
-- Additive Manufacturing
-- Stargate
+Published request limits.
 
-#### Properties
+- [Relativity Space Rate Limits](https://apis.io/rate-limits/relativity-space/relativity-space-rate-limits/)
 
-- [Documentation](https://www.relativityspace.com)
-- [OpenAPI](openapi/relativity-space-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/relativity-space.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/relativity-space.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### FinOps (1)
 
-### Relativity Space Payload and Rideshare
+What the API costs to run, by operation.
 
-Payload integration for dedicated constellation deployments, single large satellites, and multi-customer rideshare missions, supported through a standard Payload Attach Fitting (PAF) interface and documented in a payload user's guide. Mission integration is handled via sales and engineering contact, not a public API. Informational entry only.
+- [Relativity Space Finops](https://apis.io/finops/relativity-space/relativity-space-finops/)
 
-- **Human URL:** [https://www.relativityspace.com/terran-r](https://www.relativityspace.com/terran-r)
+## Where to find this API
 
-#### Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Payload
-- Rideshare
-- Mission Integration
-
-#### Properties
-
-- [Documentation](https://www.relativityspace.com/terran-r)
-- [OpenAPI](openapi/relativity-space-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/relativity-space.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/relativity-space.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/relativity-space)
 - [Website](https://www.relativityspace.com)
 - [Documentation](https://www.relativityspace.com/terran-r)
-- [Plans](plans/relativity-space-plans-pricing.yml)
-- [Rate Limits](rate-limits/relativity-space-rate-limits.yml)
-- [Fin Ops](finops/relativity-space-finops.yml)
+- [Blog](https://www.relativityspace.com/updates)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 14.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 25.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
+
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/relativity-space/](https://apis.io/providers/relativity-space/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Relativity Space: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/relativity-space/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
